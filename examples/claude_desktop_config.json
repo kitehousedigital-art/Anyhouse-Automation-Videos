@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anyhouse-video-studio": {
+      "command": "python",
+      "args": ["C:\\Users\\ME\\Desktop\\Anyhouse-Automation-Videos\\mcp_server\\anyhouse_mcp.py"]
+    }
+  }
+}

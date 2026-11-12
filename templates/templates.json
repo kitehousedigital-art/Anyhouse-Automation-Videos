@@ -1,0 +1,406 @@
+{
+  "_help": "mode: together = everything fades in at once | stack = lines appear one by one and stay | single = one line at a time replaces the previous. Positions (y, box_h) are fractions of the 1080x1920 frame. bg.mode: line (box behind each text line) | row (card per item) | omit for plain text.",
+  "templates": [
+    {
+      "id": "title_boxes",
+      "name": "Big headline in black line-boxes",
+      "category": "A. All at once",
+      "mode": "together",
+      "darken": 0.1,
+      "header": {
+        "font": "Inter-ExtraBold.otf",
+        "max_size": 112,
+        "min_size": 48,
+        "upper": true,
+        "y": 0.28,
+        "box_h": 0.36,
+        "valign": "middle",
+        "x_margin": 0.07,
+        "gap": 0,
+        "line_spacing": 1.1,
+        "bg": {
+          "mode": "line",
+          "color": "#000000",
+          "radius": 30,
+          "pad_x": 34,
+          "pad_y": 6
+        }
+      },
+      "body": {},
+      "sample": {
+        "header": "5 mini jobs in Germany for which you don't need perfect German",
+        "lines": []
+      }
+    },
+    {
+      "id": "together_list_plain",
+      "name": "Header + full list appear together (outlined text)",
+      "category": "A. All at once",
+      "mode": "together",
+      "darken": 0.3,
+      "header": {
+        "font": "Poppins-Bold.ttf",
+        "max_size": 84,
+        "min_size": 40,
+        "y": 0.17,
+        "box_h": 0.17,
+        "valign": "middle",
+        "stroke": 5,
+        "x_margin": 0.07
+      },
+      "body": {
+        "font": "Poppins-Medium.ttf",
+        "max_size": 62,
+        "min_size": 26,
+        "y": 0.37,
+        "box_h": 0.45,
+        "stroke": 4,
+        "gap": 22
+      },
+      "sample": {
+        "header": "Renting in NL: documents you need",
+        "lines": [
+          "Passport or ID",
+          "Employment contract",
+          "Last 3 payslips",
+          "Proof of registration",
+          "Landlord reference"
+        ]
+      }
+    },
+    {
+      "id": "list_cards_stack",
+      "name": "White cards build up one by one",
+      "category": "B. Build-up (lines stay)",
+      "mode": "stack",
+      "interval": 1.8,
+      "darken": 0.15,
+      "header": {
+        "font": "Poppins-Bold.ttf",
+        "color": "#FFD21F",
+        "stroke": 7,
+        "max_size": 104,
+        "min_size": 50,
+        "align": "left",
+        "y": 0.06,
+        "box_h": 0.15,
+        "x_margin": 0.06,
+        "line_spacing": 1.0
+      },
+      "body": {
+        "font": "Poppins-Medium.ttf",
+        "color": "#1B1B1B",
+        "max_size": 56,
+        "min_size": 24,
+        "align": "left",
+        "y": 0.23,
+        "box_h": 0.68,
+        "gap": 14,
+        "x_margin": 0.06,
+        "bg": {
+          "mode": "row",
+          "color": "#FFFFFF",
+          "opacity": 0.93,
+          "radius": 14,
+          "pad_x": 22,
+          "pad_y": 14,
+          "full": true
+        }
+      },
+      "sample": {
+        "header": "Top student cities in NL!",
+        "lines": [
+          "Utrecht - big, central, very lively",
+          "Groningen - cheapest, true student town",
+          "Leiden - historic and compact",
+          "Delft - tech and canals",
+          "Eindhoven - design and engineering"
+        ]
+      }
+    },
+    {
+      "id": "list_serif_stack",
+      "name": "Serif headline + outlined list",
+      "category": "B. Build-up (lines stay)",
+      "mode": "stack",
+      "interval": 1.6,
+      "darken": 0.3,
+      "header": {
+        "font": "DejaVuSerif-Bold.ttf",
+        "max_size": 96,
+        "min_size": 50,
+        "align": "left",
+        "y": 0.07,
+        "box_h": 0.24,
+        "x_margin": 0.07,
+        "line_spacing": 1.0,
+        "stroke": 0,
+        "shadow": {
+          "color": "#000000AA",
+          "dy": 5,
+          "blur": 7
+        }
+      },
+      "body": {
+        "font": "Poppins-Medium.ttf",
+        "max_size": 62,
+        "min_size": 24,
+        "align": "left",
+        "y": 0.33,
+        "box_h": 0.58,
+        "stroke": 3,
+        "gap": 20,
+        "x_margin": 0.07
+      },
+      "sample": {
+        "header": "How many days you need to see Dutch cities",
+        "lines": [
+          "Amsterdam - 3 days",
+          "Utrecht - 1 day",
+          "Rotterdam - 2 days",
+          "The Hague - 1 day",
+          "Delft - half a day"
+        ]
+      }
+    },
+    {
+      "id": "receipt_center_stack",
+      "name": "Centered cost receipt (fast lines)",
+      "category": "B. Build-up (lines stay)",
+      "mode": "stack",
+      "interval": 1.1,
+      "header_delay": 0.7,
+      "darken": 0.3,
+      "header": {
+        "font": "Poppins-Bold.ttf",
+        "max_size": 58,
+        "min_size": 34,
+        "y": 0.2,
+        "box_h": 0.1,
+        "valign": "middle",
+        "stroke": 4,
+        "x_margin": 0.08
+      },
+      "body": {
+        "font": "Poppins-Bold.ttf",
+        "max_size": 66,
+        "min_size": 28,
+        "y": 0.31,
+        "box_h": 0.4,
+        "stroke": 4,
+        "gap": 8,
+        "line_spacing": 1.08
+      },
+      "sample": {
+        "header": "Living in Utrecht (alone)",
+        "lines": [
+          "Rent: EUR 1,600",
+          "Groceries: EUR 350",
+          "Transport: EUR 100",
+          "Utilities: EUR 180",
+          "Phone & internet: EUR 50",
+          "Total: EUR 2,280"
+        ]
+      }
+    },
+    {
+      "id": "list_bold_shadow_stack",
+      "name": "Bold left list with soft shadow",
+      "category": "B. Build-up (lines stay)",
+      "mode": "stack",
+      "interval": 1.5,
+      "darken": 0.3,
+      "header": {
+        "font": "Inter-ExtraBold.otf",
+        "max_size": 84,
+        "min_size": 44,
+        "align": "left",
+        "y": 0.15,
+        "box_h": 0.14,
+        "valign": "middle",
+        "x_margin": 0.07,
+        "shadow": {
+          "color": "#000000CC",
+          "dy": 5,
+          "blur": 8
+        }
+      },
+      "body": {
+        "font": "Inter-ExtraBold.otf",
+        "max_size": 64,
+        "min_size": 26,
+        "align": "left",
+        "y": 0.31,
+        "box_h": 0.58,
+        "gap": 38,
+        "x_margin": 0.07,
+        "shadow": {
+          "color": "#000000CC",
+          "dy": 4,
+          "blur": 7
+        }
+      },
+      "sample": {
+        "header": "Amsterdam vs Berlin: rent check",
+        "lines": [
+          "Amsterdam 1-bed: ~EUR 1,900",
+          "Berlin 1-bed: ~EUR 1,300",
+          "Amsterdam shared room: ~EUR 900",
+          "Berlin shared room: ~EUR 650"
+        ]
+      }
+    },
+    {
+      "id": "step_single_box",
+      "name": "Numbered tips, one at a time (black boxes)",
+      "category": "C. One line at a time",
+      "mode": "single",
+      "interval": 2.6,
+      "darken": 0.12,
+      "header": {
+        "font": "Inter-ExtraBold.otf",
+        "max_size": 58,
+        "min_size": 34,
+        "upper": true,
+        "y": 0.12,
+        "box_h": 0.12,
+        "valign": "middle",
+        "x_margin": 0.07,
+        "gap": 0,
+        "line_spacing": 1.05,
+        "bg": {
+          "mode": "line",
+          "color": "#000000",
+          "radius": 22,
+          "pad_x": 26,
+          "pad_y": 5
+        }
+      },
+      "body": {
+        "font": "Inter-ExtraBold.otf",
+        "max_size": 96,
+        "min_size": 44,
+        "upper": true,
+        "y": 0.34,
+        "box_h": 0.34,
+        "valign": "middle",
+        "x_margin": 0.07,
+        "gap": 0,
+        "line_spacing": 1.1,
+        "bg": {
+          "mode": "line",
+          "color": "#000000",
+          "radius": 30,
+          "pad_x": 34,
+          "pad_y": 6
+        }
+      },
+      "sample": {
+        "header": "5 mistakes when renting in NL",
+        "lines": [
+          "1. Paying a deposit before a viewing",
+          "2. Skipping the contract details",
+          "3. Ignoring service costs"
+        ]
+      }
+    },
+    {
+      "id": "single_big_center",
+      "name": "One huge line at a time + yellow tag",
+      "category": "C. One line at a time",
+      "mode": "single",
+      "interval": 2.2,
+      "darken": 0.35,
+      "header": {
+        "font": "Poppins-Bold.ttf",
+        "color": "#111111",
+        "max_size": 46,
+        "min_size": 30,
+        "upper": true,
+        "y": 0.2,
+        "box_h": 0.07,
+        "valign": "middle",
+        "x_margin": 0.1,
+        "gap": 0,
+        "line_spacing": 1.0,
+        "bg": {
+          "mode": "line",
+          "color": "#FFD21F",
+          "radius": 40,
+          "pad_x": 30,
+          "pad_y": 10
+        }
+      },
+      "body": {
+        "font": "Inter-ExtraBold.otf",
+        "max_size": 124,
+        "min_size": 50,
+        "y": 0.3,
+        "box_h": 0.4,
+        "valign": "middle",
+        "x_margin": 0.08,
+        "line_spacing": 1.05,
+        "shadow": {
+          "color": "#000000DD",
+          "dy": 6,
+          "blur": 10
+        }
+      },
+      "sample": {
+        "header": "Rental reality",
+        "lines": [
+          "Good homes go in hours.",
+          "Alerts beat luck."
+        ]
+      }
+    },
+    {
+      "id": "single_card",
+      "name": "One tip per white card",
+      "category": "C. One line at a time",
+      "mode": "single",
+      "interval": 2.6,
+      "darken": 0.2,
+      "header": {
+        "font": "Poppins-Bold.ttf",
+        "color": "#FFFFFF",
+        "max_size": 64,
+        "min_size": 36,
+        "y": 0.16,
+        "box_h": 0.14,
+        "valign": "middle",
+        "x_margin": 0.08,
+        "stroke": 5,
+        "line_spacing": 1.0
+      },
+      "body": {
+        "font": "Poppins-Bold.ttf",
+        "color": "#1B1B1B",
+        "max_size": 70,
+        "min_size": 34,
+        "y": 0.36,
+        "box_h": 0.3,
+        "valign": "middle",
+        "x_margin": 0.08,
+        "line_spacing": 1.12,
+        "bg": {
+          "mode": "row",
+          "color": "#FFFFFF",
+          "opacity": 0.95,
+          "radius": 36,
+          "pad_x": 44,
+          "pad_y": 40,
+          "full": true
+        }
+      },
+      "sample": {
+        "header": "First 30 days in NL",
+        "lines": [
+          "Register at the municipality (BSN)",
+          "Open a Dutch bank account",
+          "Get health insurance"
+        ]
+      }
+    }
+  ]
+}

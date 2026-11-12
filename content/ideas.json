@@ -1,0 +1,141 @@
+{
+  "_note": "Edited in the web UI. status:verify = check figures before posting.",
+  "videos": [
+    {
+      "id": "01_dutch_rental_terms",
+      "template": "step_single_box",
+      "status": "verify",
+      "tags": [
+        "amsterdam"
+      ],
+      "header": "5 Dutch rental words every expat must know",
+      "lines": [
+        "1. Borg\nDeposit",
+        "2. Servicekosten\nService costs",
+        "3. Inschrijving\nRegistering at the address",
+        "4. Huurcontract\nRental contract",
+        "5. Bemiddelaar\nAgent / broker"
+      ],
+      "caption": "Learn these 5 words before your first viewing.",
+      "hashtags": "#netherlands #expatlife #renting",
+      "header_style": {
+        "dx": 29,
+        "dy": 274,
+        "size": 59
+      }
+    },
+    {
+      "id": "02_rental_mistakes",
+      "template": "single_card",
+      "status": "verify",
+      "header": "3 mistakes when renting in NL",
+      "lines": [
+        "1. Paying before a viewing",
+        "2. Skipping the contract details",
+        "3. Ignoring service costs"
+      ],
+      "caption": "Avoid these and you save money and stress."
+    },
+    {
+      "id": "03_utrecht_cost_of_living",
+      "template": "together_list_plain",
+      "status": "verify",
+      "tags": [
+        "utrecht"
+      ],
+      "header": "Living in Utrecht (alone)",
+      "lines": [
+        "Rent: EUR 1,600",
+        "Groceries: EUR 350",
+        "Transport: EUR 100",
+        "Utilities: EUR 180",
+        "Phone & internet: EUR 50",
+        "Total: ~EUR 2,280"
+      ]
+    },
+    {
+      "id": "04_documents_landlords_ask",
+      "template": "list_cards_stack",
+      "status": "verify",
+      "header": "Documents landlords ask for in NL",
+      "lines": [
+        "Passport or ID",
+        "Employment contract",
+        "Last 3 payslips",
+        "Proof of registration (BSN)",
+        "Reference from a previous landlord"
+      ]
+    },
+    {
+      "id": "05_homes_go_fast",
+      "template": "single_big_center",
+      "status": "ok",
+      "header": "Rental reality",
+      "lines": [
+        "Good homes go in hours.",
+        "Alerts beat luck.",
+        "Find homes first."
+      ],
+      "cta": "anyhouse.me"
+    },
+    {
+      "id": "06_student_cities",
+      "template": "list_cards_stack",
+      "status": "verify",
+      "header": "Best student cities in NL!",
+      "lines": [
+        "Utrecht - big, central, lively",
+        "Groningen - cheapest, true student town",
+        "Leiden - historic and compact",
+        "Delft - tech and canals",
+        "Eindhoven - design and engineering"
+      ]
+    },
+    {
+      "id": "07_first_30_days",
+      "template": "single_card",
+      "status": "verify",
+      "header": "First 30 days in NL",
+      "lines": [
+        "1. Register at the municipality (get your BSN)",
+        "2. Open a Dutch bank account",
+        "3. Arrange health insurance",
+        "4. Get a transport card"
+      ]
+    },
+    {
+      "id": "08_rent_vs_share",
+      "template": "together_list_plain",
+      "status": "verify",
+      "header": "Rent a flat vs share a room",
+      "lines": [
+        "Flat: more privacy, higher monthly cost",
+        "Shared room: cheaper, flexible contract",
+        "Both: check registration is allowed"
+      ]
+    },
+    {
+      "id": "09_rental_scam_signs",
+      "template": "step_single_box",
+      "status": "verify",
+      "header": "3 signs of a rental scam",
+      "lines": [
+        "1. Price far below market",
+        "2. Asked to pay before viewing",
+        "3. Landlord abroad, keys by post"
+      ]
+    },
+    {
+      "id": "10_amsterdam_vs_berlin",
+      "template": "list_bold_shadow_stack",
+      "status": "verify",
+      "header": "Amsterdam vs Berlin: rent check",
+      "lines": [
+        "Amsterdam 1-bed: ~EUR 1,900",
+        "Berlin 1-bed: ~EUR 1,300",
+        "Amsterdam shared room: ~EUR 900",
+        "Berlin shared room: ~EUR 650"
+      ]
+    }
+  ]
+}

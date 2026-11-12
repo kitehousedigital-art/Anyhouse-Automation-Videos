@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+settings.json
+output/*.mp4
+output/previews/
+output/covers/
+output/gallery/
+inbox/*
+!inbox/README.txt
+*.tmp
+.DS_Store
+Thumbs.db

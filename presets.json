@@ -1,0 +1,43 @@
+{
+  "_note": "Instagram does not publish its text fonts (Instagram Sans is proprietary). Each style is mapped to the closest free Google Font, following the substitutes listed by Kapwing.",
+  "fonts": [
+    {"file": "InstrumentSans-Bold.ttf", "label": "IG Classic", "src": "Instrument Sans"},
+    {"file": "Gabarito-Bold.ttf", "label": "IG Modern", "src": "Gabarito"},
+    {"file": "CourierPrime-Bold.ttf", "label": "IG Typewriter", "src": "Courier Prime"},
+    {"file": "RacingSansOne-Regular.ttf", "label": "IG Strong", "src": "Racing Sans One"},
+    {"file": "AnticDidone-Regular.ttf", "label": "IG Elegant", "src": "Antic Didone"},
+    {"file": "Lexend-Bold.ttf", "label": "IG Directional", "src": "Lexend"},
+    {"file": "Cormorant-Bold.ttf", "label": "IG Literature", "src": "Cormorant"},
+    {"file": "JetBrainsMono-Bold.ttf", "label": "IG Editor", "src": "JetBrains Mono"},
+    {"file": "Coiny-Regular.ttf", "label": "IG Bubble", "src": "Coiny"},
+    {"file": "Quicksand-Bold.ttf", "label": "IG Deco", "src": "Quicksand"},
+    {"file": "GravitasOne.ttf", "label": "IG Poster", "src": "Gravitas One"},
+    {"file": "FjallaOne-Regular.ttf", "label": "IG Squeeze", "src": "Fjalla One"},
+    {"file": "Jua-Regular.ttf", "label": "IG Meme", "src": "Jua"},
+    {"file": "MarckScript-Regular.ttf", "label": "IG Signature", "src": "Marck Script"},
+    {"file": "ProtestRevolution-Regular.ttf", "label": "IG Rosalia", "src": "Protest Revolution"}
+  ],
+  "styles": [
+    {"id": "classic", "name": "Classic", "style": {"font": "InstrumentSans-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000AA"}},
+    {"id": "modern", "name": "Modern", "style": {"font": "Gabarito-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000AA"}},
+    {"id": "modern_box", "name": "Modern box", "style": {"font": "Gabarito-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "line", "bg_color": "#000000", "bg_opacity": 0.85, "shadow_on": false}},
+    {"id": "neon_pink", "name": "Neon pink", "style": {"font": "Gabarito-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "bg_mode": "none", "shadow_on": false, "glow_color": "#FF2FA0", "glow_r": 22}},
+    {"id": "neon_cyan", "name": "Neon cyan", "style": {"font": "Gabarito-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "bg_mode": "none", "shadow_on": false, "glow_color": "#19E3FF", "glow_r": 22}},
+    {"id": "typewriter", "name": "Typewriter", "style": {"font": "CourierPrime-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "none", "shadow_on": true, "shadow_blur": 6, "shadow_dy": 3, "shadow_color": "#000000CC"}},
+    {"id": "typewriter_box", "name": "Typewriter box", "style": {"font": "CourierPrime-Bold.ttf", "color": "#111111", "stroke": 0, "bg_mode": "line", "bg_color": "#FFFFFF", "bg_opacity": 0.95, "bg_radius": 8, "shadow_on": false}},
+    {"id": "strong", "name": "Strong", "style": {"font": "RacingSansOne-Regular.ttf", "color": "#FFFFFF", "stroke": 0, "upper": true, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 5, "shadow_color": "#000000BB"}},
+    {"id": "strong_yellow", "name": "Strong yellow box", "style": {"font": "RacingSansOne-Regular.ttf", "color": "#111111", "stroke": 0, "upper": true, "bg_mode": "line", "bg_color": "#FFD21F", "bg_opacity": 1, "bg_radius": 14, "shadow_on": false}},
+    {"id": "elegant", "name": "Elegant", "style": {"font": "AnticDidone-Regular.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 3, "shadow_color": "#000000AA"}},
+    {"id": "literature", "name": "Literature", "style": {"font": "Cormorant-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 3, "shadow_color": "#000000AA"}},
+    {"id": "directional", "name": "Directional", "style": {"font": "Lexend-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000AA"}},
+    {"id": "editor", "name": "Editor", "style": {"font": "JetBrainsMono-Bold.ttf", "color": "#00FF9C", "stroke": 0, "bg_mode": "line", "bg_color": "#000000", "bg_opacity": 0.9, "bg_radius": 6, "shadow_on": false}},
+    {"id": "bubble", "name": "Bubble", "style": {"font": "Coiny-Regular.ttf", "color": "#FFFFFF", "stroke": 6, "stroke_color": "#FF3D81", "bg_mode": "none", "shadow_on": true, "shadow_blur": 6, "shadow_dy": 5, "shadow_color": "#00000088"}},
+    {"id": "deco", "name": "Deco", "style": {"font": "Quicksand-Bold.ttf", "color": "#FFFFFF", "stroke": 0, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000AA"}},
+    {"id": "poster", "name": "Poster", "style": {"font": "GravitasOne.ttf", "color": "#FFFFFF", "stroke": 0, "upper": true, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 5, "shadow_color": "#000000BB"}},
+    {"id": "squeeze", "name": "Squeeze", "style": {"font": "FjallaOne-Regular.ttf", "color": "#FFFFFF", "stroke": 0, "upper": true, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000BB"}},
+    {"id": "meme", "name": "Meme", "style": {"font": "Jua-Regular.ttf", "color": "#FFFFFF", "stroke": 7, "stroke_color": "#000000", "upper": true, "bg_mode": "none", "shadow_on": false}},
+    {"id": "signature", "name": "Signature", "style": {"font": "MarckScript-Regular.ttf", "color": "#FFFFFF", "stroke": 0, "upper": false, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000AA"}},
+    {"id": "rosalia", "name": "Rosalia", "style": {"font": "ProtestRevolution-Regular.ttf", "color": "#FFFFFF", "stroke": 0, "bg_mode": "none", "shadow_on": true, "shadow_blur": 8, "shadow_dy": 4, "shadow_color": "#000000AA"}},
+    {"id": "anyhouse", "name": "AnyHouse", "style": {"font": "Poppins-Bold.ttf", "color": "#111111", "stroke": 0, "upper": false, "bg_mode": "line", "bg_color": "#FFD21F", "bg_opacity": 1, "bg_radius": 24, "shadow_on": false}}
+  ]
+}
